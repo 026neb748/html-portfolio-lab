@@ -1,69 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>About Me - Bipin</title>
-
-    <style>
-        body {
-            background-color: #e6f2ff;
-            font-family: Arial, sans-serif;
-            font-size: 18px;
-            margin: 0;
-            padding: 20px;
-        }
-
-        header {
-            text-align: center;
-            background-color: #1e3a5f;
-            color: white;
-            padding: 20px;
-            border-radius: 15px;
-        }
-
-        h1 {
-            font-size: 36px;
-        }
-
-        section {
-            background-color: white;
-            margin: 20px auto;
-            padding: 20px;
-            max-width: 800px;
-            border-radius: 15px;
-        }
-
-        h2 {
-            font-size: 26px;
-            color: #1e3a5f;
-        }
-
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-
-        img {
-            display: block;
-            margin: auto;
-            border-radius: 15px;
-        }
-
-        audio {
-            width: 100%;
-        }
-
-        blockquote {
-            font-size: 18px;
-            background-color: #f0f6ff;
-            padding: 15px;
-            border-left: 5px solid #1e3a5f;
-        }
-    </style>
 </head>
 
-<body>
+<body bgcolor="#e6f2ff">
 
-<header>
+<header align="center" bgcolor="#1e3a5f">
     <h1>About Me</h1>
 </header>
 
@@ -74,9 +18,11 @@
 
         <p>
             My name is <strong>Bipin</strong>. I am currently pursuing my
-            <em>+2 education</em>at St xavier college,maitighar. I am interested in computers and technology.
+            <em>+2 education</em> at St. Xavier's College, Maitighar.
+            I am interested in computers and technology.
         </p>
     </section>
+
 
     <section>
         <h2>My Skills</h2>
@@ -92,6 +38,7 @@
         </p>
     </section>
 
+
     <section>
         <h2>My Hobbies</h2>
 
@@ -104,6 +51,7 @@
             <small>I also try to balance my hobbies with my studies.</small>
         </p>
     </section>
+
 
     <section>
         <h2>My Future Goal</h2>
@@ -131,31 +79,74 @@
         </blockquote>
     </section>
 
-    <section>
-        <h2> My Profile Image</h2>
 
-        <img src="bipin.jpg"
-             alt="My Profile Image"
-             width="300"
-             height="300">
+    <section>
+        <h2>My Profile Image</h2>
+
+        <center>
+            <img src="bipin.jpg"
+                 alt="My Profile Image"
+                 width="300"
+                 height="300">
+        </center>
     </section>
 
+
     <section>
-        <h2> Audio</h2>
+        <h2>Audio</h2>
 
         <audio controls>
             <source src="audio.mp3" type="audio/mpeg">
             <source src="audio.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
         </audio>
+    </section>
+
 
     <section>
-    <h2>Video</h2>
+        <h2>Video</h2>
 
-    <video controls poster="poster.jpg" width="500">
-        <source src="video.mp4" type="video/mp4">
-        
-    </video>
-</section>
+        <center>
+            <video controls poster="poster.jpg" width="500">
+                <source src="video.mp4" type="video/mp4">
+                <source src="video.webm" type="video/webm">
+                Your browser does not support the video element.
+            </video>
+        </center>
+    </section>
+
+
+    <section>
+        <h2>My Document</h2>
+
+        <object data="my_document.pdf"
+                type="application/pdf"
+                width="700"
+                height="500">
+            Your browser does not support PDF embedding.
+        </object>
+    </section>
+
+
+    <section>
+        <h2>Embedded Document</h2>
+
+        <embed src="my_document.pdf"
+               type="application/pdf"
+               width="700"
+               height="500">
+    </section>
+
+
+    <section>
+        <h2>Useful Webpage</h2>
+
+        <iframe src="https://www.wikipedia.org"
+                width="700"
+                height="400"
+                title="Wikipedia">
+        </iframe>
+    </section>
 
 </main>
 
